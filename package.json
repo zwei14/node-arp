@@ -1,6 +1,6 @@
 {
   "name": "node-arp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description" : "Read the ARP table to find MAC addresses (forked from tecknopaul)",
   "directories": {
     "lib": "./lib"
