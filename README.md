@@ -6,7 +6,7 @@ A module for reading MAC addresses out of the arp table
 ```js
 var arp = require('node-arp');
 
-arp.getMAC('192.168.0.1', function(err, mac) {
+arp.getMAC('192.168.0.1', ['-W', '1'], function(err, mac) {
     if (!err) {
         console.log(mac);
     }
